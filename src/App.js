@@ -1,12 +1,13 @@
 import './App.css';
+import Main from './components/Main';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quisquam. </p>
-      </header>
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <Navbar />
+        <Main />
     </div>
   );
 }
